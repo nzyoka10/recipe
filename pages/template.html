@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            background-image: url('background.jpg'); /* Add your background image */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 0.5em;
+            text-align: center; /* Center the text within the nav */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .featured-recipes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .recipe {
+            width: 45%;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .home-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .home-content img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Appetizers</a>
+        <a href="#">Main Courses</a>
+        <a href="#">Desserts</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="home-content">
+        <h2>Welcome to Delicious Recipes!</h2>
+
+        <p>Discover a world of delightful recipes that will satisfy your taste buds.</p>
+
+        <img src="home-placeholder.jpg" alt="Delicious Home">
+    </section>
+
+    <section>
+        <h2>Featured Recipes</h2>
+
+        <div class="featured-recipes">
+            <div class="recipe">
+                <img src="placeholder1.jpg" alt="Recipe 1">
+                <h3>Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.</p>
+            </div>
+
+            <div class="recipe">
+                <img src="placeholder2.jpg" alt="Recipe 2">
+                <h3>Chocolate Brownies</h3>
+                <p>Fudgy and rich chocolate brownies, perfect for satisfying your sweet tooth.</p>
+            </div>
+        </div>
+
+        <p style="text-align: center;"><a href="#">See More Recipes</a></p>
+    </section>
+
+    <footer>
+        &copy; 2023 Delicious Recipes. All rights reserved.
+    </footer>
+</body>
+</html>

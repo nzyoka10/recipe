@@ -1,26 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
+    background-image: url('./img/banner.jpeg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    color: #131313;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ef9d22;
+    color: #010101;
     text-align: center;
     padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav {
-    background-color: #eee;
+    background-color: #e7f5f2;
     padding: 0.5em;
     text-align: center; /* Center the text within the nav */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #555;
     padding: 0.5em 1em;
     margin: 0 1em;
     border-radius: 5px;
@@ -28,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #c4e0e0;
 }
 
 section {
@@ -57,21 +63,14 @@ section {
     margin-bottom: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Additional styles for the home content */
 .home-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .home-content img {
@@ -80,15 +79,13 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 768px) {
-    .home-content {
-        padding: 0 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .home-content {
-        padding: 0 10px;
-    }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
