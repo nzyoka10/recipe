@@ -68,10 +68,11 @@ section {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value to control transparency */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .home-content img {
     max-width: 100%;
@@ -84,7 +85,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    
     bottom: 0;
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
